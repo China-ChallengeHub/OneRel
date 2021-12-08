@@ -43,7 +43,7 @@ In order to decode entities and relations from the output matrix accurately and 
     python test.py --dataset=NYT --rel_num=24
     ```
 
-    The extracted results will be save in `results/NYT`.
+    The extracted results will be save in `result/NYT`.
 
 ## **Acknowledgment**
 
