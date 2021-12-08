@@ -47,7 +47,7 @@ In order to decode entities and relations from the output matrix accurately and 
 
 ## **Acknowledgment**
 
-I followed the previous work of [longlongman] (https://github.com/longlongman/CasRel-pytorch-reimplement) and [weizhepei] (https://github.com/weizhepei/CasRel). 
+I followed the previous work of [longlongman](https://github.com/longlongman/CasRel-pytorch-reimplement) and [weizhepei](https://github.com/weizhepei/CasRel). 
 
 So, I would like to express my sincere thanks to them. 
 
