@@ -34,9 +34,6 @@ class Framework(object):
 
         # define the loss function
         def cal_loss(target, predict, mask):
-            # pred [batch_size, tag_size, rel_num, seq_len, seq_len]
-            # target [batch_size, rel_num, seq_len, seq_len]
-            # mask: [batch_size, 1, seq_len, seq_len]
             loss = self.loss_function(predict, target)
             loss = torch.sum(loss * mask) / torch.sum(mask)
             return loss
@@ -97,7 +94,7 @@ class Framework(object):
                 data = train_data_prefetcher.next()
             print("total time {}".format(time.time() - epoch_start_time))
 
-            if epoch > 100 and (epoch + 1) % self.config.test_epoch == 0:
+            if epoch > 20 and (epoch + 1) % self.config.test_epoch == 0:
                 eval_start_time = time.time()
                 model.eval()
                 # call the test function
@@ -196,7 +193,6 @@ class Framework(object):
                                             triple_list.append((sub, rel, obj))
                                         break
 
-                e_time = time.time() - s_time
 
                 triple_set = set()
 
