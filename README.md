@@ -47,7 +47,7 @@ In order to decode entities and relations from the output matrix accurately and 
 
 ## Results
     
-We also provode model states for fast test. You can download them [here](https://drive.google.com/drive/folders/1VKd0Y3kSXQ8Vf8W7ZudEUEn2FNx6nSLr?usp=sharing).
+We also provide model states for fast test. You can download them [here](https://drive.google.com/drive/folders/1VKd0Y3kSXQ8Vf8W7ZudEUEn2FNx6nSLr?usp=sharing).
 
 
 ## **Acknowledgment**
