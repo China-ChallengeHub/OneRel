@@ -86,8 +86,8 @@ class Framework(object):
                 if global_step % self.config.period == 0:
                     cur_loss = loss_sum / self.config.period
                     elapsed = time.time() - start_time
-                    self.logging("epoch: {:3d}, step: {:4d}, speed: {:5.2f}ms/b, train loss: {:5.3f}, best f1: {:5.3f}".
-                                 format(epoch, global_step, elapsed * 1000 / self.config.period, cur_loss, best_f1_score))
+                    self.logging("epoch: {:3d}, step: {:4d}, speed: {:5.2f}ms/b, train loss: {:5.3f}".
+                                 format(epoch, global_step, elapsed * 1000 / self.config.period, cur_loss))
                     loss_sum = 0
                     start_time = time.time()
 
