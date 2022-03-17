@@ -45,6 +45,9 @@ In order to decode entities and relations from the output matrix accurately and 
 
     The extracted results will be save in `result/NYT`.
 
+## Results
+To reproduce the performance of the paper, please download our model states [here](https://drive.google.com/drive/folders/1VKd0Y3kSXQ8Vf8W7ZudEUEn2FNx6nSLr?usp=sharing).
+
 
 ## **Acknowledgment**
 
